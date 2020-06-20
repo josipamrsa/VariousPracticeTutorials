@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="XamarinApp.Views.LoginPage">
+    <ContentPage.Content>
+        <StackLayout x:Name="MasterLayout">
+
+            <StackLayout x:Name="LogoStack" VerticalOptions="FillAndExpand">
+                <Label x:Name="lbl_NoInternet" HorizontalTextAlignment="Center" TextColor="White" BackgroundColor="Red" />
+                <Image x:Name="LoginIcon" Source="icon.png" Margin="0,0,0,0" />
+
+            </StackLayout>
+
+            <StackLayout x:Name="LoginEntriesStack" VerticalOptions="StartAndExpand">
+                               
+                <ActivityIndicator x:Name="ActivitySpinner" Color="Red" IsRunning="true"></ActivityIndicator>
+
+                <Label x:Name="LBLUser" Text="Username" />
+                <Entry x:Name="EnUser" Placeholder="Username" />
+                <Label x:Name="LBLPass" Text="Password" />
+                <Entry x:Name="ENPass" Placeholder="Password" IsPassword="True" />
+                <Button x:Name="BTNSignIn" Text="Sign in" Clicked="SignInProcedure"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

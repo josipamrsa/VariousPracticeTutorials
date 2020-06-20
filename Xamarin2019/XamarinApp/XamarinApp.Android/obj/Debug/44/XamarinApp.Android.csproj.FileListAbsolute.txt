@@ -1,0 +1,3 @@
+C:\Users\PMF\Desktop\SRC Razni projekti\Xamarin\Xamarin2019\XamarinApp\XamarinApp.Android\obj\Debug\44\MonoAndroid,Version=v4.4.AssemblyAttributes.cs
+C:\Users\PMF\Desktop\SRC Razni projekti\Xamarin\Xamarin2019\XamarinApp\XamarinApp.Android\obj\Debug\44\build.props
+C:\Users\PMF\Desktop\SRC Razni projekti\Xamarin\Xamarin2019\XamarinApp\XamarinApp.Android\obj\Debug\44\adb.props
